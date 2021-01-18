@@ -46,7 +46,7 @@ const Skills = () => {
 							<li>POSTMAN</li>
 							<li>CHROME</li>
 							<li>PHOTOSHOP</li>
-							<li>ILLuSTRATOR</li>
+							<li>ILLUSTRATOR</li>
 						</ul>
 					</div>
 				</div>
