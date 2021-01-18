@@ -57,6 +57,7 @@ const Skills = () => {
 						width: 100%;
 						height: 80vh;
 						text-align: center;
+						border-left: 2px solid #0f0f75;
 					}
 					.skils {
 						display: flex;
@@ -72,6 +73,17 @@ const Skills = () => {
 					.devTools {
 						flex: 1 1 200px;
 					}
+					li {
+						text-align: start;
+					}
+					ul {
+						margin-left: 5px;
+					}
+					@media screen and (max-width: 900px) {
+						.skils_container {
+							border-right: none;
+						}
+					} ;
 				`}
 			</style>
 		</>

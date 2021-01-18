@@ -49,16 +49,11 @@ const Hero = () => (
 				.tech_pic {
 					width: 50vw;
 				}
-				.tech_pic_container {
-					width: 100vw;
-					margin-top: 150px;
-					display: flex;
-					justify-content: center;
-				}
+
 				@media screen and (max-width: 850px) {
-					.hero_container {
+					.hero_main {
 						width: 100vw;
-						height: 80vh;
+						height: 420px;
 					}
 					.title {
 						font-size: 20px;
