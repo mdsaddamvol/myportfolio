@@ -16,7 +16,7 @@ const Skills = () => {
 							<li>JAVASCRIPT</li>
 							<li>REACT</li>
 							<li>REDUX</li>
-							<li>APPOLO-CLIENT</li>
+							<li>APOLlO-CLIENT</li>
 						</ul>
 					</div>
 					<div className='backEnd'>
