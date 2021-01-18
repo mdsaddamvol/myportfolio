@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "post-build": "next build",
+    "heroku-postbuild": "npm run build",
     "start": "next start"
   }
 }
