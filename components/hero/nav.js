@@ -1,14 +1,14 @@
-import React from "react";
+import React, { useRef } from "react";
+
 const Nav = () => {
+	const aboutme = useRef();
 	return (
 		<nav className='nav'>
-			<a className='links' href='#'>
-				PORTFOLIO
-			</a>
+			<span className='links'>PORTFOLIO</span>
 			<img className='logo' src='/static/logo.png' alt='logo' />
-			<a className='links' href='#'>
+			<span className='links' onClick={() => aboutme.current.scrollIntoView()}>
 				ABOUT ME
-			</a>
+			</span>
 
 			<style jsx>{`
 				.nav {

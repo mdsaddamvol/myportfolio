@@ -4,7 +4,7 @@ const Hero = () => (
 		<img className='profilePic' src='/static/p.png' />
 		<h1 className='title'>I Am A Full-Stack Web Developer.</h1>
 		<p className='discription'>
-			I build scaleable wab apps and back-end server.
+			I build scaleable web apps and back-end server.
 		</p>
 		<div className='sayHi'>SAY HI</div>
 

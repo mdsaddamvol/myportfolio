@@ -16,7 +16,7 @@ const Skills = () => {
 							<li>JAVASCRIPT</li>
 							<li>REACT</li>
 							<li>REDUX</li>
-							<li>APOLlO-CLIENT</li>
+							<li>APOLLO-CLIENT</li>
 						</ul>
 					</div>
 					<div className='backEnd'>
@@ -81,7 +81,7 @@ const Skills = () => {
 					}
 					@media screen and (max-width: 900px) {
 						.skils_container {
-							border-right: none;
+							border-left: none;
 						}
 					} ;
 				`}
