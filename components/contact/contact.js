@@ -72,6 +72,7 @@ const Contactform = () => {
 					border: 1px solid blue;
 					border-radius: 8px;
 					height: 30px;
+					padding: 5px;
 				}
 				textarea {
 					border: 1px solid blue;
