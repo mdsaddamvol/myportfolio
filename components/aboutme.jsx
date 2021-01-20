@@ -52,6 +52,7 @@ const Aboutme = () => {
 					.aboutmeAndSkills {
 						margin-bottom: 0;
 						padding-top: 0;
+						height: auto;
 					}
 				} ;
 			`}</style>
