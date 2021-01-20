@@ -25,9 +25,9 @@ export default (req, res) => {
 	transporter.sendMail(mailOption, (err, data) => {
 		if (err) {
 			console.log(err);
-			res.status(405).send(err);
+			res.status(405).send("error");
 		} else {
-			res.status(200).send(data);
+			res.status(200).send("succes");
 			console.log(req.body);
 		}
 	});

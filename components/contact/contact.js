@@ -20,7 +20,7 @@ const Contactform = () => {
 			}),
 		});
 		const data = await res.json();
-		if (data.Accept) {
+		if (data === "succes") {
 			alert("sent email");
 		} else {
 			alert("failed to send email");
