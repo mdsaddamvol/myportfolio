@@ -20,8 +20,12 @@ const Contactform = () => {
 			}),
 		});
 		const data = await res.json();
-		if (data === "succes") {
+		console.log(data);
+		if (data.succes) {
 			alert("sent email");
+			setName("");
+			setEmail("");
+			setText("");
 		} else {
 			alert("failed to send email");
 		}
@@ -46,7 +50,11 @@ const Contactform = () => {
 						required
 					/>
 					<label>MESSAGE</label>
-					<textarea onChange={(e) => setText(e.target.value)} required />
+					<textarea
+						value={text}
+						onChange={(e) => setText(e.target.value)}
+						required
+					/>
 					<button className='send' type='submit'>
 						SEND
 					</button>
@@ -94,6 +102,7 @@ const Contactform = () => {
 					font-size: 25px;
 					margin: 10px;
 					color: blue;
+					background-color: white;
 					border: 1px solid blue;
 					border-radius: 8px;
 					margin-top: 20px;

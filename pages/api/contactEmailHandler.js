@@ -21,13 +21,16 @@ export default (req, res) => {
     ${text}
     `,
 	};
-
+	const errr = { error: "error" };
+	const succes = {
+		succes: "succes",
+	};
 	transporter.sendMail(mailOption, (err, data) => {
 		if (err) {
 			console.log(err);
-			res.status(405).send("error");
+			res.status(405).send(errr);
 		} else {
-			res.status(200).send("succes");
+			res.status(200).send(succes);
 			console.log(req.body);
 		}
 	});
