@@ -78,6 +78,7 @@ const Contactform = () => {
 					border: 1px solid blue;
 					border-radius: 8px;
 					height: 200px;
+					padding: 5px;
 				}
 				label {
 					font-size: 25px;
