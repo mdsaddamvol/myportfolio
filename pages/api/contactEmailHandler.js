@@ -17,7 +17,7 @@ export default (req, res) => {
 		to: "mdsaddamvoltas@gmail.com",
 		subject: `New mail from ${email}`,
 		text: `
-    ${name} wrote:
+    ${name} from ${email} wrote:
     ${text}
     `,
 	};
@@ -25,9 +25,9 @@ export default (req, res) => {
 	transporter.sendMail(mailOption, (err, data) => {
 		if (err) {
 			console.log(err);
-			res.send(err);
+			res.status(405).send(err);
 		} else {
-			res.send(data);
+			res.status(200).send(data);
 			console.log(req.body);
 		}
 	});
