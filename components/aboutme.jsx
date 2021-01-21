@@ -23,13 +23,11 @@ const Aboutme = () => {
 			<style jsx>{`
 				.aboutmeAndSkills {
 					width: 100%;
-					height: 80vh;
 					color: bisque;
 					display: flex;
 					flex-wrap: wrap;
 					padding-top: 50px;
 					background-color: black;
-					overflow: scroll;
 					-ms-overflow-style: none;
 					scrollbar-width: none;
 				}
@@ -52,8 +50,6 @@ const Aboutme = () => {
 					.aboutmeAndSkills {
 						margin-bottom: 0;
 						padding-top: 0;
-						height: auto;
-						overflow: auto;
 					}
 				} ;
 			`}</style>

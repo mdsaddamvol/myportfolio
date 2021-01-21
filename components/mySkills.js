@@ -55,7 +55,7 @@ const Skills = () => {
 				{`
 					.skils_container {
 						width: 100%;
-						height: 80vh;
+
 						text-align: center;
 						border-left: 2px solid #0f0f75;
 					}

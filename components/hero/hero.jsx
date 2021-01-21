@@ -1,12 +1,15 @@
+import Link from "next/link";
 import React from "react";
-const Hero = () => (
+const Hero = (Contactform) => (
 	<div className='hero_main'>
 		<img className='profilePic' src='/static/p.png' />
 		<h1 className='title'>I Am A Full-Stack Web Developer.</h1>
 		<p className='discription'>
 			I build scaleable web apps and back-end server.
 		</p>
-		<div className='sayHi'>SAY HI</div>
+		<Link href='#scrollInContactform'>
+			<a className='sayHi'>SAY HI</a>
+		</Link>
 
 		<style jsx>
 			{`
@@ -17,7 +20,6 @@ const Hero = () => (
 					flex-wrap: wrap;
 					justify-content: center;
 					align-content: flex-start;
-					margin-top: 18vh;
 					border-bottom: 2px solid bisque;
 					box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.2);
 				}
@@ -73,6 +75,7 @@ const Hero = () => (
 						font-size: 20px;
 						border-radius: 8px;
 						margin-top: 20px;
+						text-decoration: none;
 					}
 					.tech_pic_container {
 						margin-top: 30px;

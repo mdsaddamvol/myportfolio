@@ -1,14 +1,13 @@
-import React, { useRef } from "react";
+import React from "react";
+import Link from "next/link";
 
-const Nav = () => {
-	const aboutme = useRef();
+function Nav(Aboutme) {
 	return (
 		<nav className='nav'>
-			<span className='links'>PORTFOLIO</span>
 			<img className='logo' src='/static/logo.png' alt='logo' />
-			<span className='links' onClick={() => aboutme.current.scrollIntoView()}>
-				ABOUT ME
-			</span>
+			<Link href='#scrollInAbout'>
+				<a className='links'>ABOUT ME</a>
+			</Link>
 
 			<style jsx>{`
 				.nav {
@@ -16,7 +15,6 @@ const Nav = () => {
 					display: flex;
 					justify-content: space-evenly;
 					align-items: center;
-					position: fixed;
 					top: 0;
 					background: white;
 					border-bottom: 2px solid bisque;
@@ -46,6 +44,7 @@ const Nav = () => {
 					.links {
 						font-size: 15px;
 						border: 2px solid blue;
+						text-decoration: none;
 					}
 					.logo {
 						width: 15vw;
@@ -54,6 +53,6 @@ const Nav = () => {
 			`}</style>
 		</nav>
 	);
-};
+}
 
 export default Nav;
