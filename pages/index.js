@@ -23,6 +23,9 @@ class Home extends React.Component {
 
 				<style jsx global>
 					{`
+						html {
+							scroll-behavior: smooth;
+						}
 						body {
 							margin: 0;
 							padding: 0;

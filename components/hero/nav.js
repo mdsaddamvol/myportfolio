@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
-function Nav(Aboutme) {
+function Nav() {
 	return (
 		<nav className='nav'>
 			<img className='logo' src='/static/logo.png' alt='logo' />
@@ -13,7 +13,7 @@ function Nav(Aboutme) {
 				.nav {
 					width: 100%;
 					display: flex;
-					justify-content: space-evenly;
+					justify-content: space-around;
 					align-items: center;
 					top: 0;
 					background: white;
@@ -23,11 +23,12 @@ function Nav(Aboutme) {
 				.logo {
 					width: 7vw;
 					margin: 10px;
+					justify-self: center;
 					animation: spin 5s infinite;
 					animation-timing-function: linear;
 				}
 				.links {
-					padding: 0.5vw;
+					padding: 5px;
 					border: 3px solid blue;
 					font-size: 25px;
 					text-align: center;
