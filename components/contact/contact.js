@@ -31,7 +31,7 @@ const Contactform = () => {
 		}
 	};
 	return (
-		<div className='contactForm-container'>
+		<section className='contactForm-container'>
 			<h1 className='title'>CONTACT ME</h1>
 			<div className='formContainer'>
 				<form onSubmit={(e) => handleSubmit(e)} className='form'>
@@ -111,7 +111,7 @@ const Contactform = () => {
 					align-self: center;
 				}
 			`}</style>
-		</div>
+		</section>
 	);
 };
 

@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
-const Hero = (Contactform) => (
-	<div className='hero_main'>
+const Hero = () => (
+	<section className='hero_main'>
 		<img className='profilePic' src='/static/p.png' />
 		<h1 className='title'>I Am A Full-Stack Web Developer.</h1>
 		<p className='discription'>
@@ -83,7 +83,7 @@ const Hero = (Contactform) => (
 				} ;
 			`}
 		</style>
-	</div>
+	</section>
 );
 
 export default Hero;

@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 const Myworks = () => {
 	return (
-		<div className='main'>
+		<section className='main'>
 			<h1>MY WORKS EXAMPLES</h1>
 			<div className='works-container'>
 				<div className='card1'>
@@ -72,7 +72,7 @@ const Myworks = () => {
 					overflow: hidden;
 				}
 			`}</style>
-		</div>
+		</section>
 	);
 };
 

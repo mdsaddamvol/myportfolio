@@ -15,8 +15,8 @@ class Home extends React.Component {
 	render() {
 		return (
 			<>
-				<Nav handleScroll={this.handleScroll} />
-				<Hero Contactform={(c) => (this.Contactform = c)} />
+				<Nav />
+				<Hero />
 				<div id='scrollInAbout'></div>
 				<Aboutme />
 				<div id='scrollInWorks'></div>

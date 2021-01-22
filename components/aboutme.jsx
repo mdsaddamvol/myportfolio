@@ -2,7 +2,7 @@ import React from "react";
 import Skills from "./mySkills";
 const Aboutme = () => {
 	return (
-		<div className='aboutmeAndSkills'>
+		<section className='aboutmeAndSkills'>
 			<div className='aboutme_text'>
 				<h1>ABOUT ME</h1>
 				<p>
@@ -53,7 +53,7 @@ const Aboutme = () => {
 					}
 				} ;
 			`}</style>
-		</div>
+		</section>
 	);
 };
 
