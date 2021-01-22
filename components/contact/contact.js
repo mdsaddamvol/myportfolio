@@ -31,7 +31,7 @@ const Contactform = () => {
 		}
 	};
 	return (
-		<>
+		<div className='contactForm-container'>
 			<h1 className='title'>CONTACT ME</h1>
 			<div className='formContainer'>
 				<form onSubmit={(e) => handleSubmit(e)} className='form'>
@@ -61,10 +61,12 @@ const Contactform = () => {
 				</form>
 			</div>
 			<style jsx>{`
+				.contactForm-container {
+					padding-top: 50px;
+				}
 				.title {
 					text-align: center;
-					color: blue;
-					margin-top: 50px;
+					color: #ff5722;
 				}
 				.formContainer {
 					width: 100%;
@@ -81,13 +83,13 @@ const Contactform = () => {
 					padding-top: 0;
 				}
 				input {
-					border: 1px solid blue;
+					border: 1px solid #ffeb3b;
 					border-radius: 8px;
 					height: 30px;
 					padding: 5px;
 				}
 				textarea {
-					border: 1px solid blue;
+					border: 1px solid #ffeb3b;
 					border-radius: 8px;
 					height: 200px;
 					padding: 5px;
@@ -95,21 +97,21 @@ const Contactform = () => {
 				label {
 					font-size: 25px;
 					padding-bottom: 10px;
-					color: #595c5d;
+					color: #ff5722;
 				}
 				.send {
 					width: 150px;
 					font-size: 25px;
 					margin: 10px;
-					color: blue;
+					color: #ff5722;
 					background-color: white;
-					border: 1px solid blue;
+					border: 1px solid #ffeb3b;
 					border-radius: 8px;
 					margin-top: 20px;
 					align-self: center;
 				}
 			`}</style>
-		</>
+		</div>
 	);
 };
 

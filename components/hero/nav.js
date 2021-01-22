@@ -4,6 +4,9 @@ import Link from "next/link";
 function Nav() {
 	return (
 		<nav className='nav'>
+			<Link href='#scrollInWorks'>
+				<a className='links'>MY WORKS</a>
+			</Link>
 			<img className='logo' src='/static/logo.png' alt='logo' />
 			<Link href='#scrollInAbout'>
 				<a className='links'>ABOUT ME</a>

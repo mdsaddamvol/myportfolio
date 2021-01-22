@@ -34,6 +34,4 @@ export default (req, res) => {
 			console.log(req.body);
 		}
 	});
-
-	console.log(name, email, text);
 };
