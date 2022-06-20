@@ -6,12 +6,6 @@ import Nav from "../components/hero/nav";
 import Myworks from "../components/myworks/myworks";
 
 class Home extends React.Component {
-	constructor(props) {
-		super(props);
-		this.Aboutme = React.createRef();
-		this.Contactform = React.createRef();
-	}
-
 	render() {
 		return (
 			<>

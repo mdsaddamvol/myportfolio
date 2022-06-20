@@ -16,6 +16,7 @@ const Skills = () => {
 							<li>JAVASCRIPT</li>
 							<li>REACT</li>
 							<li>REDUX</li>
+							<li>NEXTJS</li>
 							<li>APOLLO-CLIENT</li>
 						</ul>
 					</div>
@@ -24,7 +25,7 @@ const Skills = () => {
 						<ul>
 							<li>NODEJS</li>
 							<li>EXPRESSJS</li>
-							<li>NEXTJS</li>
+
 							<li>JWT</li>
 							<li>SQL</li>
 							<li>POSTGRES</li>
@@ -55,7 +56,7 @@ const Skills = () => {
 				{`
 					.skils_container {
 						width: 100%;
-
+						padding: 50px 0px;
 						text-align: center;
 						border-left: 2px solid #0f0f75;
 					}

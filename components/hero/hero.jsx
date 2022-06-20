@@ -15,13 +15,14 @@ const Hero = () => (
 			{`
 				.hero_main {
 					width: 100%;
-					height: 80vh;
+					height: 90vh;
 					display: flex;
 					flex-wrap: wrap;
 					justify-content: center;
 					align-content: flex-start;
 					border-bottom: 2px solid bisque;
 					box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.2);
+					padding-bottom: 50px;
 				}
 
 				.title {

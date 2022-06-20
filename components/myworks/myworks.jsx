@@ -7,7 +7,7 @@ const Myworks = () => {
 			<div className='works-container'>
 				<div className='card1'>
 					<Link href='https://hire-lie.herokuapp.com'>
-						<a target='_blank'>
+						<a rel='noopener' target='_blank'>
 							<div className='work'>
 								<h2>ECOMMERCE EXAMPLE</h2>
 							</div>
@@ -16,7 +16,7 @@ const Myworks = () => {
 				</div>
 				<div className='card2'>
 					<Link href='https://instructory-clone.herokuapp.com/'>
-						<a target='_blank'>
+						<a rel='noopener' target='_blank'>
 							<div className='work'>
 								<h2>LMS EXAMPLE</h2>
 							</div>

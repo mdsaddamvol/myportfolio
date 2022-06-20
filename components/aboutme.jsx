@@ -26,7 +26,7 @@ const Aboutme = () => {
 					color: bisque;
 					display: flex;
 					flex-wrap: wrap;
-					padding-top: 50px;
+					padding-top: 50px 40px;
 					background-color: black;
 					-ms-overflow-style: none;
 					scrollbar-width: none;
